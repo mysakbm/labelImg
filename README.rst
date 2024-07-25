@@ -84,15 +84,14 @@ macOS
 Python 3 + Qt5
 
 .. code:: shell
-        1. 
     brew install qt  # Install qt-5.x.x by Homebrew
     brew install libxml2
     brew install pyqt5
-        2.
+
     git clone https://github.com/tzutalin/labelImg.git
-        3.
+
     cd labelImg
-        4. 
+
     make qt5py3
 
     python3 labelImg.py
