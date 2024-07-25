@@ -103,7 +103,7 @@ To mi nejak nefungovalo, tohle ano:
 .. code:: shell
 
         conda install pyqt=5
-        conda install -c anaconda lxml
+        conda install lxml # ja to delal bez anacondy, ale v originale je: (-c anaconda) 
         pyrcc5 -o libs/resources.py resources.qrc
         python labelImg.py
 
