@@ -99,6 +99,7 @@ Python 3 + Qt5
     python3 labelImg.py [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
 
 To mi nejak nefungovalo, tohle ano:
+
 .. code:: shell
 
         conda install pyqt=5
