@@ -88,9 +88,13 @@ Python 3 + Qt5
     brew install qt  # Install qt-5.x.x by Homebrew
     brew install libxml2
     brew install pyqt5
+
     git clone https://github.com/tzutalin/labelImg.git
+
     cd labelImg
+
     make qt5py3
+
     python3 labelImg.py
     python3 labelImg.py [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
 
