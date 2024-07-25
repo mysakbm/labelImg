@@ -84,6 +84,7 @@ macOS
 Python 3 + Qt5
 
 .. code:: shell
+
     brew install qt  # Install qt-5.x.x by Homebrew
     brew install libxml2
     brew install pyqt5
