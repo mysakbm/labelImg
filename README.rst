@@ -98,6 +98,17 @@ Python 3 + Qt5
     python3 labelImg.py
     python3 labelImg.py [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
 
+.. code:: shell
+        in this case you might write one of the commend wrong (this error showed to me before I find out the mistake )
+        first :
+        conda install pyqt=5
+        second :
+        conda install -c anaconda lxml
+        third :
+        pyrcc5 -o libs/resources.py resources.qrc
+        finally you can run :
+        python labelImg.py
+
 
 Python 3 Virtualenv (Recommended)
 
