@@ -55,6 +55,11 @@ This is the simplest (one-command) install method on modern Linux distributions 
     labelImg
     labelImg [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
 
+Pozor, verze z pipu ma problem pri instalaci. Obsahuje jeste bug, ktery neni na pipu, ale je uz opraven v gitu. Je treba zmenit nasledujici radek 965 v souboru labelImg.py:
+
+.. code:: shel
+
+        bar.setValue(int(bar.value() + bar.singleStep() * units))
 
 Build from source
 ~~~~~~~~~~~~~~~~~
